@@ -8,5 +8,6 @@ def add_date_time_to_filename(filename):
     else:
         return filename + "_" + str(datetime.datetime.now()).replace(" ", "_")
 
-print add_date_time_to_filename("filename")
-print add_date_time_to_filename("filename.txt")
+if __name__ == "__main__":
+    print add_date_time_to_filename("filename")
+    print add_date_time_to_filename("filename.txt")
