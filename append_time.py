@@ -1,4 +1,5 @@
 __author__ = 'Mike Konarski'
+# This module contains some useful functions for appending time to strings.
 import datetime
 
 def add_date_time_to_filename(filename):
